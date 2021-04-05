@@ -1,0 +1,87 @@
+# problems-monotonicarray
+
+Question:
+
+Given a number N, array of N integers. Write a program to find whether the given array is Monotonic or not. Input Size : |N| <= 1000000
+Note:
+An array is monotonic if and only if it is monotone increasing, or monotone decreasing. So we only need to check adjacent elements to determine if the array is monotone increasing (or decreasing), respectively. We can check each of these properties in one pass.
+
+Input Description:
+
+The first line contains an integer N. The second line contains N space-separated integers, which denotes array elements.
+
+Output Description:
+
+Print "YES" if the given array in Monotonic else print "NO".
+
+Hints:
+
+Check adjacent elements of the array to find whether the given array in Monotonic or not.
+
+Sample Input:
+
+6\n
+1 4 6 8 9 9
+
+Sample Output:
+
+YES
+
+Explanation:
+
+The given array is Monotonic as 1<=4<=6<=8<=9<=9, hence the output is YES.
+
+Testcase 1:
+
+Input:
+
+9\n
+11 28 39 46 56 78 88 90 99
+
+Output:
+
+YES
+
+Testcase 2:
+
+Input:
+
+18\n
+56 32 43 11 78 33 11 23 89 33 12 45 78 23 66 89 33 12
+
+Output:
+
+NO
+
+Testcase 3:
+
+Input:
+
+14\n
+23 31 22 20 19 18 17 16 15 14 13 12 11 10
+
+Ouput:
+
+No
+
+Testcase 4:
+
+Input:
+
+4\n
+6 5 4 4
+
+Output:
+
+YES
+
+Testcase 5:
+
+Input:
+
+5\n
+5 15 20 10 11
+
+Output:
+
+NO
