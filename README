@@ -20,7 +20,7 @@ Check adjacent elements of the array to find whether the given array in Monotoni
 
 Sample Input:
 
-6\n
+6
 1 4 6 8 9 9
 
 Sample Output:
@@ -35,7 +35,7 @@ Testcase 1:
 
 Input:
 
-9\n
+9
 11 28 39 46 56 78 88 90 99
 
 Output:
@@ -46,7 +46,7 @@ Testcase 2:
 
 Input:
 
-18\n
+18
 56 32 43 11 78 33 11 23 89 33 12 45 78 23 66 89 33 12
 
 Output:
@@ -57,7 +57,7 @@ Testcase 3:
 
 Input:
 
-14\n
+14
 23 31 22 20 19 18 17 16 15 14 13 12 11 10
 
 Ouput:
@@ -68,7 +68,7 @@ Testcase 4:
 
 Input:
 
-4\n
+4
 6 5 4 4
 
 Output:
@@ -79,7 +79,7 @@ Testcase 5:
 
 Input:
 
-5\n
+5
 5 15 20 10 11
 
 Output:
