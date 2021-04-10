@@ -3,7 +3,7 @@ Question:
 
 Given a number N, array of N integers. Write a program to find whether the given array is Monotonic or not. Input Size : |N| <= 1000000
 Note:
-An array is monotonic if and only if it is monotone increasing, or monotone decreasing. So we only need to check adjacent elements to determine if the array is monotone increasing (or decreasing), respectively. We can check each of these properties in one pass.
+An array is monotonic if and only if it is monotonically increasing, or monotonically decreasing. So we only need to check adjacent elements to determine if the array is monotonically increasing (or decreasing), respectively. We can check each of these properties in one pass.
 
 Input Description:
 
